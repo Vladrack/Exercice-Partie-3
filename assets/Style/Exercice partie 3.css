@@ -1,0 +1,191 @@
+#imageDesert {
+    background-image: url("../img/desert egyptien.jpg");
+    background-size: cover;
+    height: 350px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: solid 5px rgb(185, 185, 185);
+    background-position-x: right;
+}
+
+#textDesert {
+    padding-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    background-position-x: right;
+}
+
+ul {
+    display: table;
+    width: 97%;
+    margin: auto;
+    background-color: rgb(190, 142, 100);
+    font-size: 200%;
+
+}
+
+ul li {
+    display: table-cell;
+}
+#smallText {
+    margin-left: 25%;
+    width: 50%;
+    background-color: rgb(190, 142, 100);
+    color: rgb(0, 0, 0);
+    border: rgb(185, 185, 185) solid 5px;
+    padding: 30px;
+}
+
+#searchButton {
+    margin-left: 49%;
+    transform: translateY(-25pX);
+}
+
+#floatZone {
+    width: 30%;
+    text-align: center;
+    margin-right: 2%;
+    border: rgb(185, 185, 185) solid 5px;
+    background-color: rgb(190, 142, 100);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imageFirst {
+    width: 400px;
+    height: 200px;
+}
+
+#floatZone2 {
+    width: 30%;
+    text-align: center;
+    margin-right: 2%;
+    border: rgb(185, 185, 185) solid 5px;
+    background-color: rgb(190, 142, 100);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#imageSize {
+    width: 400px;
+    height: 200px;
+}
+
+#floatZone3 {
+    width: 30%;
+    text-align: center;
+    border: rgb(185, 185, 185) solid 5px;
+    margin-right: 2%;
+    background-color: rgb(190, 142, 100);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+#imageCar {
+    width: 400px;
+    height:200px;
+}
+
+#floatGeneral {
+    display: flex;
+    flex-direction: row;
+}
+.linkColor {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+@media all and (max-width: 1400px) {
+    .mediaSizer {
+        width: 100%;
+        height:auto;
+    }
+}
+.linkColor a:hover {
+    background-color: rgb(218, 207, 207);
+    color: black;  
+}
+#navigationTool {
+    background-color: rgb(190, 142, 100);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    border: rgb(185, 185, 185) solid 5px;
+    padding: 3px;
+    width: 99.70%;
+}
+.linkColor a {
+    text-decoration: none;
+    color: black;
+    margin: 3vw;
+}
+@media all and (max-width: 1344px) {#floatGeneral{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+#floatZone{
+    width: 100%;
+}
+#floatZone2{
+    width: 100%;
+}
+#floatZone3{
+    width: 100%;
+}
+    }
+    fieldset {
+        border: rgb(185, 185, 185) solid 5px;
+        background-color: rgb(190, 142, 100);
+    }
+    #flexBlyat {
+       display: flex; 
+       flex-direction: row;
+    }
+    #columnFlex1 {
+        display: flex;
+        flex-direction: column;
+        line-height: 22px;
+    }
+    #columnFlex2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .destination {
+        width: 100%;
+        margin-left: 35px;
+    }
+    .destinationLink {
+        text-decoration: none;
+        color: black;
+    }
+    article {
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        background-color: rgb(190, 142, 100);
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: rgb(190, 142, 100);
+        color: rgb(0, 0, 0);
+        border: black;
+    }
+   .hoverClick:hover {
+       background-color: rgb(185, 185, 185);
+   }
+   #borderLine {
+      border: black solid 5px; 
+   }
+   #lineBorder {
+       border: rgb(185, 185, 185) solid 5px;
+   }
+   .centerClarity {
+       width: 100%;
+     margin-left: 30px;
+   }
+   .reservations {
+       width: 50%;
+   }
