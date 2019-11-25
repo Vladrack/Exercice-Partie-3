@@ -4,8 +4,7 @@
     height: 350px;
     background-repeat: no-repeat;
     text-align: center;
-    border: solid 5px rgb(185, 185, 185);
-    background-position-x: right;
+       background-position-x: right;
 }
 
 #textDesert {
@@ -32,7 +31,6 @@ ul li {
     width: 50%;
     background-color: rgb(190, 142, 100);
     color: rgb(0, 0, 0);
-    border: rgb(185, 185, 185) solid 5px;
     padding: 30px;
 }
 
@@ -45,7 +43,6 @@ ul li {
     width: 30%;
     text-align: center;
     margin-right: 2%;
-    border: rgb(185, 185, 185) solid 5px;
     background-color: rgb(190, 142, 100);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -59,7 +56,6 @@ ul li {
     width: 30%;
     text-align: center;
     margin-right: 2%;
-    border: rgb(185, 185, 185) solid 5px;
     background-color: rgb(190, 142, 100);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -73,7 +69,6 @@ ul li {
 #floatZone3 {
     width: 30%;
     text-align: center;
-    border: rgb(185, 185, 185) solid 5px;
     margin-right: 2%;
     background-color: rgb(190, 142, 100);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -108,7 +103,6 @@ ul li {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-    border: rgb(185, 185, 185) solid 5px;
     padding: 3px;
     width: 99.70%;
 }
@@ -133,7 +127,6 @@ ul li {
 }
     }
     fieldset {
-        border: rgb(185, 185, 185) solid 5px;
         background-color: rgb(190, 142, 100);
     }
     #flexBlyat {
@@ -178,9 +171,6 @@ ul li {
    }
    #borderLine {
       border: black solid 5px; 
-   }
-   #lineBorder {
-       border: rgb(185, 185, 185) solid 5px;
    }
    .centerClarity {
        width: 100%;
